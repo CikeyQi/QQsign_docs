@@ -10,7 +10,7 @@
  **COUNT**
  Unidbg实例数量 ，官方建议等于核心数，免费空间是2核CPU，所以这里建议填==2==。（数值越大并发能力越强，内存占用越大）\
  **TXLIB_VERSION**
- 存放核心so文件的文件夹绝对路径，在本空间已经存放了官方提供的最近六个版本的so文件，包括==8.9.58==或==8.9.63==，支持的所有版本号在txlib目录下，推荐使用高于8.9.50及以上的版本，您可以自行将so文件上传到空间的txlib文件夹中，选择自己的版本\
+ 存放核心so文件的文件夹绝对路径，在本空间已经存放了官方提供的最近六个版本的so文件，包括`8.9.50` `8.9.58`或`8.9.63`，支持的所有版本号在txlib目录下，推荐使用高于8.9.50及以上的版本，您可以自行将so文件上传到空间的txlib文件夹中，选择自己的版本\
  **visibility**修改为Public
 ![so文件存放路径](https://i.postimg.cc/jSDtXcVd/version.png)
 ![查看协议版本](https://img-blog.csdnimg.cn/6e27f33483d548e284ec777015227b42.png)
@@ -31,7 +31,7 @@
 在config中找到bot.yaml文件
 ![bot配置项路径](https://img-blog.csdnimg.cn/25a96210007a4beba978bca719fff717.png)
 在底部添加：`sign_api_addr: https://此处为你复制的地址/sign`\
-（直接复制的地址末尾没有/sign，请自行添加/sgin，冒号后面必须添上一个空格）
+（直接复制的地址末尾没有/sign，请自行添加/sign，冒号后面必须添上一个空格）
 ![增加配置项](https://img-blog.csdnimg.cn/81a3666013e9436bad31c40986ade90e.png)
 保存，回到自己的空间，点击devices，找到创建空间选择的版本devices_版本号.js，下载它，并重命名为device.js
 ![选择device.js](https://i.postimg.cc/mDz8txCG/7-E2-DC331-ADB8-406d-ACD9-782-A58-A3-D81-E.png)
