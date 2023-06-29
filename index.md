@@ -38,7 +38,7 @@
 找到并替换Miao-Yunzai\node_modules\icqq\lib\core\中的device.js\
 ![替换device.js](https://img-blog.csdnimg.cn/3e5a7c8fba214155842feba62cce212a.png)
 **注意**:创建空间时的安卓版本与你崽使用不一致device_版本.js时\
-(ICQQ0.4.7默认版本为8.9.50)，应在替换device.js后手动删除data\icqq\device.json并重新生成device.json设备,修改后的Android_data重新复制后，回到你的空间中，点击右上角**setting**，下拉找到**Repository secrets**，找到**ANDROID_ID**，点击**Edit**修改为你新的Android_ID，并点击**Restart space**重启空间
+(ICQQ0.4.7默认版本为8.9.50)，应在替换device.js后手动删除data\icqq\device.json并重新生成device.json设备,修改后的Android_ID重新复制后，回到你的空间中，点击右上角**setting**，下拉找到**Repository secrets**，找到**ANDROID_ID**，点击**Edit**修改为你新的Android_ID，并点击**Restart space**重启空间
 ![修改空间参数](https://i.postimg.cc/FR2KyS6B/1.png)
 ![修改空间参数](https://i.postimg.cc/RZXVPy8f/2.png)
 在config中找到bot.yaml更改协议为1或2（安卓手机或apad）
