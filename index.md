@@ -1,5 +1,7 @@
 ﻿# HuggingFace部署签名服务
 
+**本方案不支持最新版本的icqq，如果你遇到'ERR_INVALID_ARG_TYPE'的报错，请降级icqq至0.4.8，降级命令`pnpm add icqq@0.4.8 -w`**
+
 优点：不需要服务器搭建，白嫖Huggingface的2核16G服务器，一键克隆即可运行，一人一地址，避免公共使用导致集体封号
 
 缺点：移动网络无法访问HuggingFace
