@@ -64,7 +64,9 @@
 
 ![增加配置项](https://img-blog.csdnimg.cn/81a3666013e9436bad31c40986ade90e.png)
 
-保存，回到自己的空间，点击devices，找到创建空间选择的版本devices_版本号.js，下载它，并重命名为device.js
+Tips：如果你启动机器人时显示的协议版本与sign服务器填写的协议版本对的上时，您不用替换device.js，对不上的再替换相应的device.js
+
+回到自己的空间，点击devices，找到创建空间选择的版本devices_版本号.js，下载它，并重命名为device.js
 
 ![选择device.js](https://i.postimg.cc/mDz8txCG/7-E2-DC331-ADB8-406d-ACD9-782-A58-A3-D81-E.png)
 
@@ -72,9 +74,9 @@
 
 ![替换device.js](https://img-blog.csdnimg.cn/3e5a7c8fba214155842feba62cce212a.png)
 
-**注意**：如果您启动机器人时，ICQQ的协议版本与空间**TXLIB_VERSION**版本对不上时
+**注意**：如果您启动机器人时，ICQQ的协议版本与空间**TXLIB_VERSION**版本对不上时：
 
-(ICQQ0.4.7默认版本为8.9.50)，在自己空间中，点击右上角**Setting**，下拉找到**Repository secrets**，找到**TXLIB_VERSION**，点击**Edit**修改为你ICQQ的协议版本，如`8.9.50`，并点击**Restart space**重启空间
+(ICQQ0.4.8默认版本为8.9.63)，在自己空间中，点击右上角**Setting**，下拉找到**Repository secrets**，找到**TXLIB_VERSION**，点击**Edit**修改为你ICQQ的协议版本，如`8.9.63`，并点击**Restart space**重启空间
 
 ![修改空间参数](https://i.postimg.cc/FR2KyS6B/1.png)
 ![修改空间参数](https://i.postimg.cc/RZXVPy8f/2.png)
