@@ -2,6 +2,8 @@
 
 文档作者：`0卡苏打水`   QQ交流群：`621069204`
 
+截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 `1.1.5` 版本
+
 优点：不需要服务器搭建，白嫖Huggingface的2核16G服务器，一键克隆即可运行，一人一地址
 
 缺点：移动网络无法访问HuggingFace，部分地区网络可能存在一定延迟
@@ -83,6 +85,7 @@
 ![在这里插入图片描述](/src/11.png)
 
 ## 后记：为什么我遇到了问题
+
 1. 检查克隆时是否填写了**TXLIB_VERSION**，否则克隆后空间会报错
 
 2. **Visibility**必须改成Public，否则第三步会没有**Embed this Space**，且机器人无法访问接口
@@ -92,3 +95,7 @@
 4. 请检查服务器是否能访问huggingface.co
 
 5. 若仍有问题，可加入QQ群：**621069204**，询问解决办法
+
+## 致谢
+
+- unidbg-fetch-qsign项目：[unidbg-fetch-qsign](https://github.com/fuqiuluo/unidbg-fetch-qsign)
