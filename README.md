@@ -87,8 +87,6 @@
 
 2. **Visibility**必须改成Public，否则第三步会没有**Embed this Space**，且机器人无法访问接口
 
-3. 如果你遇到'ERR_INVALID_ARG_TYPE'的报错，请删除设备文件再试
+3. 请检查服务器是否能访问huggingface.co
 
-4. 请检查服务器是否能访问huggingface.co
-
-5. 若仍有问题，可加入QQ群：**621069204**，询问解决办法
+4. 若仍有问题，可加入QQ群：**621069204**，询问解决办法
