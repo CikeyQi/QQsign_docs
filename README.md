@@ -2,7 +2,7 @@
 
 文档作者：`0卡苏打水`   QQ交流群：`621069204`
 
-截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 `1.1.5` 版本
+截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 `1.1.7` 版本
 
 优点：不需要服务器搭建，白嫖Huggingface的2核16G服务器，一键克隆即可运行，一人一地址
 
