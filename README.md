@@ -10,6 +10,8 @@
 
 **如果你是Windows，非常建议您查看我的这个项目：[unidbg-fetch-qsign-gui](https://github.com/CikeyQi/unidbg-fetch-qsign-gui)**
 
+**如果你是Linux，非常建议您查看我的这个项目：[unidbg-fetch-qsign-shell](https://github.com/CikeyQi/unidbg-fetch-qsign-shell)**
+
 ## 第一步：克隆空间
 
 打开我已经部署好的空间：[QQsign](https://huggingface.co/spaces/CikeyQI/QQsign)，点击右上角三个点，点击 **Duplicate this Space** 
