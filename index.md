@@ -1,6 +1,6 @@
 # HuggingFace部署签名服务
 
-文档作者：`0卡苏打水`   QQ交流群：`621069204`
+文档作者：`0卡苏打水`   QQ交流群：`551081559`
 
 截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 `1.1.9` 版本
 
@@ -9,6 +9,8 @@
 缺点：移动网络无法访问HuggingFace，部分地区网络可能存在一定延迟，如果出现timeout错误则是你运营商的问题，不是本教程的问题
 
 **如果你是Windows，非常建议您查看我的这个项目：[unidbg-fetch-qsign-gui](https://github.com/CikeyQi/unidbg-fetch-qsign-gui)**
+
+**如果你是Linux，非常建议您查看我的这个项目：[unidbg-fetch-qsign-shell](https://github.com/CikeyQi/unidbg-fetch-qsign-shell)**
 
 ## 第一步：克隆空间
 
@@ -78,7 +80,7 @@
 
 4. 请检查服务器是否能访问huggingface.co
 
-5. 若仍有问题，可加入QQ群：**621069204**，询问解决办法
+5. 若仍有问题，可加入QQ群：**551081559**，询问解决办法
 
 ## 致谢
 
