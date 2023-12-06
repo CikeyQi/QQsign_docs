@@ -12,7 +12,7 @@
 
 **如果你是Linux，非常建议您查看我的这个项目：[unidbg-fetch-qsign-shell](https://github.com/CikeyQi/unidbg-fetch-qsign-shell)**
 
-最近群友催的Linux安装Windows版NTQQ的一键脚本也弄好了：[chronocat-docker-shell](https://github.com/CikeyQi/chronocat-docker-shell)
+**最近群友催的两条命令快速迁移NTQQ的一键脚本也弄好了：[chronocat-docker-shell](https://github.com/CikeyQi/chronocat-docker-shell)**
 
 ## 第一步：克隆空间
 
