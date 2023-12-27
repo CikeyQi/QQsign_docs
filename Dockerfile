@@ -15,4 +15,4 @@ COPY bin /app/bin
 CMD bash bin/unidbg-fetch-qsign --basePath=txlib/$TXLIB_VERSION
 
 # 暴露端口
-EXPOSE 7860
+EXPOSE 8080
