@@ -5,15 +5,18 @@
   },
   "key": "114514",
   "auto_register": true,
-  "reload_interval": 40,
   "protocol": {
+    "package_name": "com.tencent.mobileqq",
     "qua": "V1_AND_SQ_8.9.68_4264_YYB_D",
     "version": "8.9.68",
     "code": "4264"
   },
   "unidbg": {
-    "dynarmic": false,
+    "dynarmic": true,
     "unicorn": true,
-    "debug": true
-  }
+    "debug": false
+  },
+  "black_list": [
+    1008611
+  ]
 }

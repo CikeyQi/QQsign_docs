@@ -7,8 +7,9 @@ ENV TZ Asia/Shanghai
 WORKDIR /app
 
 # 复制解压包和txlib到工作目录
-COPY unidbg-fetch-qsign /app
 COPY txlib /app/txlib
+COPY lib /app/lib
+COPY bin /app/bin
 
 # 设置命令
 CMD bash bin/unidbg-fetch-qsign --basePath=txlib/$TXLIB_VERSION
