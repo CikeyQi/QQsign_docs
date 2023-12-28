@@ -1,14 +1,13 @@
-# [⭐️HuggingFace账户消失？空间404？](https://github.com/CikeyQi/QQsign_docs/issues/9)
+# Koyeb部署签名服务
 
-# HuggingFace部署签名服务
+# **⚠️禁止在国内视频平台传播与二改传播，防止方案泛滥**
 
 文档作者：`0卡苏打水`   QQ交流群：`551081559`
 
-截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 `1.1.9` 版本
+由于 **HuggingFace** 的围追堵截，被迫迁移至 **Koyeb**，目前来看仍然可以白嫖，就是配置低了点，个人使用足够了，网站访问也比 **HuggingFace** 流畅得多，下方测速图：
 
-优点：不需要服务器搭建，白嫖Huggingface的2核16G服务器，一键克隆即可运行，一人一地址
+![下载](https://github.com/CikeyQi/QQsign_docs/assets/61369914/55507ffc-9b06-47bc-9a5a-b597334d4bcc)
 
-缺点：移动网络无法访问HuggingFace，部分地区网络可能存在一定延迟，如果出现timeout错误则是你运营商的问题，不是本教程的问题
 
 **如果你是Windows，非常建议您查看我的这个项目：[unidbg-fetch-qsign-gui](https://github.com/CikeyQi/unidbg-fetch-qsign-gui)**
 
@@ -16,75 +15,48 @@
 
 **最近群友催的两条命令快速迁移NTQQ的一键脚本也弄好了：[chronocat-docker-shell](https://github.com/CikeyQi/chronocat-docker-shell)**
 
-## 第一步：克隆空间
+# 注册 Koyeb
 
-打开我已经部署好的空间：[QQsign](https://huggingface.co/spaces/FKHF/FUCKHF)，点击右上角三个点，点击 **Duplicate this Space** 
-![克隆空间](/src/1.png)
+1.本人实测使用 **10分钟邮箱** 即可免费注册 **Koyeb** ，浏览器打开 [10分钟邮箱](https://www.linshi-email.com/) 和 [Koyeb](https://app.koyeb.com/auth/signup?method=email) 两个标签，在 **10分钟邮箱** 中点击 **复制** 即可获得一个临时邮箱，回到 **Koyeb** ，输入随便内容到 **Full name** 栏，粘贴邮箱到 **Email** 栏，随便设置个密码到 **Pick a strong password** 栏，点击 **SIGN UP**即可
 
-## 第二步：填写相应的项
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/a547eb11-f1ca-4a29-b2b4-28f606c929f3)
 
- **Visibility：**
- 
- 修改为**Public**，一定要公开，否则无法正常访问接口
- 
- **TXLIB_VERSION：**
- 
- 本项请直接填写版本号即可，如 `8.9.68` ，不用填写路径！在本空间已经存放了官方提供的几个版本的so文件 `3.5.1` `3.5.2` `8.9.63` `8.9.68` `8.9.71` 和 `8.9.73` ，请将icqq更新到0.5.1版本以上以自动匹配协议版本，更新命令`pnpm add icqq@0.5.4 -w` 
+2.接下来提示需要 **Confirm your email address** ，我们回到 **10分钟邮箱** 等待收到验证邮件，点击 **VERIFY EMAIL ADDRESS** 即可验证成功，接下来可以关掉 **10分钟邮箱** 这个界面了，在接下来 **Koyeb** 会问你一些问题，随便填即可
 
-<br>
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/a2bc9af1-82df-470a-adea-ea3ad7c5f67a)
 
-填写好后，点击**Duplicate this Space**，将自动为您部署
+3.到这个界面，就是注册成功了
 
-![开始部署](/src/5.png)
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/087bb141-663f-4758-a77b-05f6a2aae1c4)
 
-## 第三步：获取地址
+# 创建 APP
 
-当状态变成**Running**时，即部署成功
+1.点击 **Create App**，选择 **Docker** ，按照下图提示, **Image** 填入 `docker.io/cikeyqi/unidbg-fetch-qsign-docker` , **Tag** 填入 `latest`，点击 **Next**
 
-![空间开始运行](/src/6.png)
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/5a44605e-e3df-40e3-b3e8-398cbee797f1)
 
-点击右上角三个点，选择**Embed this Space**
+2.接下来往下滑，找到 **Advanced** ，点击展开，如果需要修改协议版本（不修改默认使用 `8.9.96` ），找到 **Environment variables** ，点击 **Add Variable** ， **Name** 填 `TXLIB_VERSION` ， **Value** 填版本号，如图所示
 
-![查看个人URL](/src/7.png)
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/ddd522be-81ae-4fa4-86bd-f06faad364c9)
 
-下方Direct URL就是你的接口地址，点**copy**复制到剪切板
+3.继续往下滑，找到 **Exposing your service** ，修改 **Post** 为 `8080` ，如图所示
 
-![查看个人URL](/src/8.png)
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/80db5ed2-cb5c-468c-b2e5-67bb5d475ff6)
 
-## 第四步：填写并使用
+4.点击左下角的 **Diploy** 即可
 
-在config中找到bot.yaml文件
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/4a92afac-860d-4a28-a941-d5bd8018536a)
 
-![bot配置项路径](/src/9.png)
+# 使用 API
 
-在底部添加：`sign_api_addr: https://此处为你复制的地址/sign?key=114514`
-（直接复制的地址末尾没有/sign?key=114514，请自行添加/sign?key=114514，sign_api_addr:冒号后面必须添上一个空格）
+1.等待如图所示位置变成 **Active**，复制 **Public URL** 链接，例如 `https://******.koyeb.app/`，即可完成部署
 
-（什么，你问我为什么Key这么臭？原作者设置的！）
+![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/2333da5e-31c8-4ec4-8f4d-fcf8a623887a)
 
-![增加配置项](/src/10.png)
-
-在config中找到bot.yaml更改协议为1或2（安卓手机或apad）
-
-![修改协议](/src/4.png)
-
-启动成功
-
-如果该文档对你有帮助，请给我一个免费的Star，谢谢
-
-![在这里插入图片描述](/src/11.png)
 
 ## 后记：为什么我遇到了问题
 
-1. 检查克隆时是否填写了**TXLIB_VERSION**，否则克隆后空间会报错
-
-2. **Visibility**必须改成Public，否则第三步会没有**Embed this Space**，且机器人无法访问接口
-
-3. 如果你遇到'ERR_INVALID_ARG_TYPE'的报错，请删除设备文件再试
-
-4. 请检查服务器是否能访问huggingface.co
-
-5. 若仍有问题，可加入QQ群：**551081559**，询问解决办法
+1. 若有问题，可加入QQ群：**551081559**，询问解决办法
 
 ## 致谢
 
