@@ -17,11 +17,11 @@
 
 # 注册 Koyeb
 
-1.本人实测使用 **10分钟邮箱** 即可免费注册 **Koyeb** ，浏览器打开 [10分钟邮箱](https://www.linshi-email.com/) 和 [Koyeb](https://app.koyeb.com/auth/signup?method=email) 两个标签，在 **10分钟邮箱** 中点击 **复制** 即可获得一个临时邮箱，回到 **Koyeb** ，输入随便内容到 **Full name** 栏，粘贴邮箱到 **Email** 栏，随便设置个密码到 **Pick a strong password** 栏，点击 **SIGN UP**即可
+1.用自己的邮箱注册 **Koyeb** ，浏览器打开 [Koyeb](https://app.koyeb.com/auth/signup?method=email) ，输入随便内容到 **Full name** 栏，粘贴邮箱到 **Email** 栏，随便设置个密码到 **Pick a strong password** 栏，点击 **SIGN UP**即可
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/a547eb11-f1ca-4a29-b2b4-28f606c929f3)
 
-2.接下来提示需要 **Confirm your email address** ，我们回到 **10分钟邮箱** 等待收到验证邮件，点击 **VERIFY EMAIL ADDRESS** 即可验证成功，接下来可以关掉 **10分钟邮箱** 这个界面了，在接下来 **Koyeb** 会问你一些问题，随便填即可
+2.接下来提示需要 **Confirm your email address** ，我们回到邮箱后台验证邮件，点击 **VERIFY EMAIL ADDRESS** 即可验证成功，在接下来 **Koyeb** 会问你一些问题，随便填即可
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/a2bc9af1-82df-470a-adea-ea3ad7c5f67a)
 
