@@ -15,6 +15,8 @@
 
 **最近群友催的两条命令快速迁移NTQQ的一键脚本也弄好了：[chronocat-docker-shell](https://github.com/CikeyQi/chronocat-docker-shell)**
 
+## **前排提示：如果图和文字冲突，请以文本为准，因为教程更新了图没更新**
+
 # 注册 Koyeb
 
 1.用自己的邮箱注册 **Koyeb** ，浏览器打开 [Koyeb](https://app.koyeb.com/auth/signup?method=email) ，输入随便内容到 **Full name** 栏，粘贴邮箱到 **Email** 栏，随便设置个密码到 **Pick a strong password** 栏，点击 **SIGN UP**即可
@@ -31,11 +33,11 @@
 
 # 创建 APP
 
-1.点击 **Create App**，选择 **Docker** ，按照下图提示, **Image** 填入 `docker.io/cikeyqi/unidbg-fetch-qsign-docker` , **Tag** 填入 `latest`，点击 **Next**
+1.点击 **Create App**，选择 **Docker** ，按照下图提示, **Image** 填入 `docker.io/woxigousade/qsign` , **Tag** 填入 `latest`，点击 **Next**
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/5a44605e-e3df-40e3-b3e8-398cbee797f1)
 
-2.接下来往下滑，找到 **Advanced** ，点击展开，如果需要修改协议版本（不修改默认使用 `8.9.96` ），找到 **Environment variables** ，点击 **Add Variable** ， **Name** 填 `TXLIB_VERSION` ， **Value** 填版本号，如图所示
+2.接下来往下滑，找到 **Advanced** ，点击展开，如果需要修改协议版本（不修改默认使用 `8.9.96` ），找到 **Environment variables** ，点击 **Add Variable** ， **Name** 填 `VERSION` ， **Value** 填版本号，如图所示
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/ddd522be-81ae-4fa4-86bd-f06faad364c9)
 
