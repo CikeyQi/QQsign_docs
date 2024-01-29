@@ -1,4 +1,4 @@
-# Koyeb部署签名服务
+# Koyeb部署签名服务（[如需HuggingFace部署请点击我](https://github.com/CikeyQi/QQsign_docs/tree/main)）
 
 # **⚠️禁止在国内视频平台传播与二改传播，防止方案泛滥**
 
