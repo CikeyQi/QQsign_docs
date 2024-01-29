@@ -48,8 +48,6 @@
 
 ## 第四步：填写并使用
 
-## 搭建好不会用？
-
 [点我打开喂饭教程](https://github.com/CikeyQi/unidbg-fetch-qsign-gui/issues/4)
 
 ## 后记：为什么我遇到了问题
