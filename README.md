@@ -33,11 +33,11 @@
 
 # 创建 APP
 
-1.点击 **Create App**，选择 **Docker** ，按照下图提示, **Image** 填入 `docker.io/woxigousade/qsign` , **Tag** 填入 `latest`，点击 **Next**
+1.点击 **Create App**，选择 **Docker** ，按照下图提示, **Image** 填入 `docker.io/cikeyqi/unidbg-fetch-qsign-docker` , **Tag** 填入 `latest`，点击 **Next**
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/5a44605e-e3df-40e3-b3e8-398cbee797f1)
 
-2.接下来往下滑，找到 **Advanced** ，点击展开，如果需要修改协议版本（不修改默认使用 `8.9.96` ），找到 **Environment variables** ，点击 **Add Variable** ， **Name** 填 `VERSION` ， **Value** 填版本号，如图所示
+2.接下来往下滑，找到 **Advanced** ，点击展开，如果需要修改协议版本（不修改默认使用 `8.9.96` ），找到 **Environment variables** ，点击 **Add Variable** ， **Name** 填 `TXLIB_VERSION` ， **Value** 填版本号，如图所示
 
 ![image](https://github.com/CikeyQi/QQsign_docs/assets/61369914/ddd522be-81ae-4fa4-86bd-f06faad364c9)
 
